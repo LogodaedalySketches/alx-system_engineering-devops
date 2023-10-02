@@ -1,2 +1,2 @@
 #!/bin/bash
-find ~ -type .* -a (f -a d) ! . .. | wc -l
+find ~ -type .* -a (f -a d) | wc -l
